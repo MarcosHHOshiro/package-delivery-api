@@ -1,0 +1,29 @@
+{
+  "name": "package-delivery-api",
+  "version": "1.0.0",
+  "description": "API de entregas e encomendas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosHHOshiro/package-delivery-api.git"
+  },
+  "keywords": [],
+  "author": "Marcos H. H. Oshiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosHHOshiro/package-delivery-api/issues"
+  },
+  "homepage": "https://github.com/MarcosHHOshiro/package-delivery-api#readme",
+  "dependencies": {
+    "@types/node": "^24.9.2",
+    "express": "^5.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5"
+  }
+}
