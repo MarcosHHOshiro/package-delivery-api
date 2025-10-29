@@ -19,6 +19,7 @@
   "homepage": "https://github.com/MarcosHHOshiro/package-delivery-api#readme",
   "dependencies": {
     "@types/node": "^24.9.2",
+    "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "express-async-error": "^0.0.2",
     "tsx": "^4.20.6",
@@ -26,6 +27,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.5",
     "prisma": "^6.18.0"
   }
