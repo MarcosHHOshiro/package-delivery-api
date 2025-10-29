@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MarcosHHOshiro/package-delivery-api#readme",
   "dependencies": {
+    "@prisma/client": "6.18.0",
     "@types/node": "^24.9.2",
     "bcrypt": "^6.0.0",
     "express": "^5.1.0",
