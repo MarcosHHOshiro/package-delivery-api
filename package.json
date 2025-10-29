@@ -4,7 +4,7 @@
   "description": "API de entregas e encomendas",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch --env-file .env src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/express": "^5.0.5"
+    "@types/express": "^5.0.5",
+    "prisma": "^6.18.0"
   }
 }
