@@ -1,0 +1,14 @@
+import { Router } from "express";
+
+import { DeliveriesController } from "@/controllers/deliveries-controllers";
+
+import { ensureAuthenticated } from "@/middlewares/ensure-authenticated";
+import { verifyUserAuthorization } from "@/middlewares/verifyUserAuthorizarion";
+
+const deliveriesRoutes = Router()
+const deliveriesController = new DeliveriesController()
+
+deliveriesRoutes.use(ensureAuthenticated, verifyUserAuthorization(["sale"]))
+deliveriesRoutes.post("/", deliveriesController.create)
+
+export { deliveriesRoutes }
