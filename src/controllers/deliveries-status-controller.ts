@@ -1,6 +1,5 @@
 import { prisma } from "@/database/prisma";
 import { Request, Response } from "express";
-import { stat } from "fs";
 import z from "zod";
 
 class DeliveriesStatusController {
